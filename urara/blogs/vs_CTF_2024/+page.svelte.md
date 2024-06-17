@@ -19,7 +19,7 @@ Our team, 'Bits & Pieces', had a blast participating in the VSCTF event, and we 
 
 > Flag will be printed out straight away when you run the binary.
 > 
-> File: [chall](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/chall)
+> File: chall](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/chall)
 
 We are given an elf 64-bit file, and as you know it's a rev chall. Boot up that disassembler! On opening the file in binary ninja.
 
@@ -37,11 +37,11 @@ Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
 ### awa-jelly
 
-> [JellyCTF](https://jellyc.tf/) has some amazing challenges on [Jelly Hoshiumi](https://x.com/jellyhoshiumi) (星海ジェリー), one of the few VTubers who loves CTF. Inspired by a challenge, I made one based on [AWA5.0](https://github.com/TempTempai/AWA5.0). Can you find the redacted input that matches the screenshot?
+> JellyCTF](https://jellyc.tf/) has some amazing challenges on Jelly Hoshiumi](https://x.com/jellyhoshiumi) (星海ジェリー), one of the few VTubers who loves CTF. Inspired by a challenge, I made one based on AWA5.0](https://github.com/TempTempai/AWA5.0). Can you find the redacted input that matches the screenshot?
 > 
 > image](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/vs3.png)
 > 
-> [awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
+> awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
 
 Looking at the image, I immediately started experimenting with the output and given txt file.
 
