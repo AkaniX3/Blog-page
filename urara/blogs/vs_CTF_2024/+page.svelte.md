@@ -57,10 +57,10 @@ First I wasn't able to understand much on how the awa code works, so i tried to 
 I noticed it just transposes text and is easy to just map out.
 
 ```py
-position_mapping = [17, 11, 15, 16, 18, 20, 21, 2, 22, 23, 5, 24, 8, 25, 12, 26, 4, 1, 27, 28, 6, 29, 30, 31, 32, 13, 0, 3, 7, 9, 14, 19]
+position_mapping = [26, 17, 7, 27, 16, 10, 20, 28, 12, 29, 1, 14, 30, 25, 31, 0, 2, 3, 4, 5, 6, 8, 9, 11, 13, 15, 18, 19, 21, 22, 23, 24]
 ```
 
-Now reversing this mapping and applying it on output string
+Now reversing this and applying it on output string
 
 ```py
 s1 = "rlstuwyc01f2i3m4eb56g789_oadhjnp"
