@@ -63,7 +63,25 @@ position_mapping = [17, 11, 15, 16, 18, 20, 21, 2, 22, 23, 5, 24, 8, 25, 12, 26,
 Now reversing this mapping and applying it on output string
 
 ```py
-1o1i_awlaw_aowsay3wa0awa!iJlooHi -> J3lly_0oooosHii11i_awawawawaawa!
+s1 = "rlstuwyc01f2i3m4eb56g789_oadhjnp"
+s2 = "abcdefghijlmnoprstuwy0123456789_"
+
+get_indexes = {}
+for i in range(0,len(s)):
+    get_indexes[s1[i]] = i
+
+position_mapping = []
+for i in s2:
+    position_mapping.append(get_indexes[i])
+
+print(position_mapping)
+
+s3 = "1o1i_awlaw_aowsay3wa0awa!iJlooHi"
+for i in position_mapping:
+    print(s3[i],end="")
+print()
+
+# output: J3lly_0oooosHii11i_awawawawaawa!
 ```
 
 And there you have it!
