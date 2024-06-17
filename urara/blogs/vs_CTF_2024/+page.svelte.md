@@ -1,6 +1,6 @@
 ---
 title: 'VSCTF 2024 writeup'
-image: '/blogs/akasec_CTF_2024/akasec1.png'
+image: '/blogs/vs_CTF_2024/vsctf.png'
 alt: 'VSCTF'
 created: 2024-6-15
 tags:
