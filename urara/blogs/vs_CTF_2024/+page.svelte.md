@@ -23,7 +23,7 @@ Our team, 'Bits & Pieces', had a blast participating in the VSCTF event, and we 
 
 We are given an elf 64-bit file, and as you know it's a rev chall. Boot up that disassembler! On opening the file in binary ninja.
 
-![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/assets/vsctf2024/vs1.webp)
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs1.png)
 
 First thing we can see in the main function, its printing something and then sleeps for god knows how long XD
 
