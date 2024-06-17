@@ -23,13 +23,13 @@ Our team, 'Bits & Pieces', had a blast participating in the VSCTF event, and we 
 
 We are given an elf 64-bit file, and as you know it's a rev chall. Boot up that disassembler! On opening the file in binary ninja.
 
-![image](/assets/vsctf2024/vs1.webp)
+![image](./assets/vsctf2024/vs1.webp)
 
 First thing we can see in the main function, its printing something and then sleeps for god knows how long XD
 
 it's pretty straightforward, we just patch and rmeove that sleep command, then save it and run the file.
 
-![image](/assets/vsctf2024/vs2.webp)
+![image](./assets/vsctf2024/vs2.webp)
 
 Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
