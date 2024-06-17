@@ -29,7 +29,7 @@ First thing we can see in the main function, its printing something and then sle
 
 it's pretty straightforward, we just patch and rmeove that sleep command, then save it and run the file.
 
-![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/assets/vsctf2024/vs1.webp)
+![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/assets/vsctf2024/vs2.webp)
 
 Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
