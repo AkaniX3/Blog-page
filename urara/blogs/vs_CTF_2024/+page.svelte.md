@@ -29,7 +29,7 @@ First thing we can see in the main function, its printing something and then sle
 
 it's pretty straightforward, we just patch and rmeove that sleep command, then save it and run the file.
 
-![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/assets/vsctf2024/vs2.webp)
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs2.png)
 
 Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
@@ -39,7 +39,7 @@ Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
 > [JellyCTF](https://jellyc.tf/) has some amazing challenges on [Jelly Hoshiumi](https://x.com/jellyhoshiumi) (星海ジェリー), one of the few VTubers who loves CTF. Inspired by a challenge, I made one based on [AWA5.0](https://github.com/TempTempai/AWA5.0). Can you find the redacted input that matches the screenshot?
 
-![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/vs3.png)
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs3.png)
 
 > [awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
 
