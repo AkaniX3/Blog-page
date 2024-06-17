@@ -39,7 +39,7 @@ Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
 > [JellyCTF](https://jellyc.tf/) has some amazing challenges on [Jelly Hoshiumi](https://x.com/jellyhoshiumi) (星海ジェリー), one of the few VTubers who loves CTF. Inspired by a challenge, I made one based on [AWA5.0](https://github.com/TempTempai/AWA5.0). Can you find the redacted input that matches the screenshot?
 
-> [image](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/vs3.png)
+![image](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/vs3.png)
 
 > [awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
 
