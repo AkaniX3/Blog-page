@@ -16,3 +16,7 @@ Our team, 'Bits & Pieces', had a blast participating in the VSCTF event, and we 
 ## Reverse:
 
 ### intro-reversing
+
+> Flag will be printed out straight away when you run the binary.
+>
+> File: [chall](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/chall)
