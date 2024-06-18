@@ -45,9 +45,13 @@ Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
 Looking at the image, I immediately started experimenting with the output and given txt file.
 
-First I wasn't able to understand much on how the awa code works, so i tried to work around this by by running a test string as input to see what output we get. Running a few iterations,
+First I wasn't able to understand much on how the awa code works, so i read through the given github link. 
 
-```py
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs4.png)
+
+Well i found that the language uses infinite FILO stack that holds bubbles, So the intructions need to passed in reverse order. The characters `k,q,v,x,z` are obsolete which was actually useful to know. With this tried to work around this by by running a test string as input to see what output we get. Running a few iterations,
+
+```
 1st: abcdefghijlmnoprstuwy0123456789_ -> rlstuwyc01f2i3m4eb56g789_oadhjnp
 2nd: rlstuwyc01f2i3m4eb56g789_oadhjnp -> 4feb56gs78w90_2ouladyhjnp3rtc1im
 3rd: 4feb56gs78w90_2ouladyhjnp3rtc1im -> owuladyehj6n7p935frtgc1im_4bs802
