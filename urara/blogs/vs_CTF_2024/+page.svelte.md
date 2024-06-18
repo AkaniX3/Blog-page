@@ -49,7 +49,7 @@ First I wasn't able to understand much on how the awa code works, so i read thro
 
 ![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs4.png)
 
-Well i found that the language uses infinite FILO stack that holds bubbles, So the intructions need to passed in reverse order. The characters `k,q,v,x,z` are obsolete which was actually useful to know. With this tried to work around this by by running a test string as input to see what output we get. Running a few iterations,
+Well i found that the language uses infinite FILO stack that holds bubbles, So the intructions need to passed in reverse order. The characters `k,q,v,x,z` are obsolete which was actually useful to know. I tried to work around with this by running a test string as input to see what output we get. Running a few iterations,
 
 ```
 1st: abcdefghijlmnoprstuwy0123456789_ -> rlstuwyc01f2i3m4eb56g789_oadhjnp
