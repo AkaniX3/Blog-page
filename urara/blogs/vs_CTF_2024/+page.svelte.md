@@ -5,8 +5,7 @@ alt: 'VSCTF'
 created: 2024-6-15
 tags:
   - 'CTF'
-  - 'Reverse Engineer'
-  - 'Miscellaneous'
+  - 'Reverse'
 ---
 
 Our team, 'Bits & Pieces', had a blast participating in the VSCTF event, and we placed 44th rank this time, It was a great run and we tackled some really interesting challenges! Here's my writeup on the challs i solved in the CTF.
@@ -41,7 +40,7 @@ Flag: `vsctf{1nTr0_r3v3rR51ng!}`
 
 ![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/vs_CTF_2024/vs3.png)
 
-> [awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
+> File: [awawa.txt](https://github.com/AkaniX3/Blog-page/blob/main/urara/blogs/vs_CTF_2024/awawa.txt)
 
 Looking at the image, I immediately started experimenting with the output and given txt file.
 
