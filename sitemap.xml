@@ -11,23 +11,28 @@
     </url>
     
         <url>
+            <loc>https://urara-demo.netlify.app/blogs/google_CTF_2024</loc>
+            <lastmod>2024-06-25T00:00:00.000Z</lastmod>
+            <priority>0.5</priority>
+        </url>
+        <url>
             <loc>https://urara-demo.netlify.app/blogs/vs_CTF_2024</loc>
-            <lastmod>2024-06-19T04:23:52.915Z</lastmod>
+            <lastmod>2024-06-24T16:34:49.229Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
             <loc>https://urara-demo.netlify.app/blogs/akasec_CTF_2024</loc>
-            <lastmod>2024-06-19T04:23:52.915Z</lastmod>
+            <lastmod>2024-06-24T16:34:49.229Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
             <loc>https://urara-demo.netlify.app/hello-world/elements</loc>
-            <lastmod>2024-06-19T04:23:52.919Z</lastmod>
+            <lastmod>2024-06-24T16:34:49.233Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
             <loc>https://urara-demo.netlify.app/hello-world/toc-disabled</loc>
-            <lastmod>2024-06-19T04:23:52.919Z</lastmod>
+            <lastmod>2024-06-24T16:34:49.233Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
