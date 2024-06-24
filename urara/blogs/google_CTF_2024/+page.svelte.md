@@ -11,4 +11,8 @@ tags:
   - 'Web'
 ---
 
-meow
+My google CTF 2024 writeup !
+
+## Crypto:
+
+mhm
