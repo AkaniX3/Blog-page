@@ -1,14 +1,12 @@
 ---
 title: 'Pico CTF 2024 writeup'
-image: '/blogs/google_CTF_2024/googlectf.png'
+image: '/blogs/pico_CTF_2024/picoctf.png'
 alt: 'picoCTF'
-created: 2024-6-24
+created: 2024-3-29
 tags:
   - 'CTF'
   - 'Forensics'
   - 'Reverse'
-  - 'Misc'
-  - 'Web'
 ---
 
 My picoCTF 2024 writeup !
