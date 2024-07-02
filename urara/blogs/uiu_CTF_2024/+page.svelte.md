@@ -1,6 +1,6 @@
 ---
 title: 'UIU CTF 2024 writeup'
-image: '/blogs/akasec_CTF_2024/akasec1.png'
+image: '/blogs/uiu_CTF_2024/uiuctf.png'
 alt: 'UIUCTF'
 created: 2024-7-1
 tags:
