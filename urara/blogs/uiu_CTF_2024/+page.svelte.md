@@ -43,7 +43,7 @@ For confirming the specific location, you can notice in the image, that there's 
 
 Searching a bit along the road, I found the location
 
-![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_night6.png)
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiuctf_night6.png)
 
 So there you go, its 157 Arlington Street in Boston.
 
