@@ -65,7 +65,7 @@ Flag: `uiuctf{Arlington Street, Boston}`
 
 ![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/chunkyboi.jpg)
 
-In the image, It seems like the image is captured near the runway of some airport. Vroom to google image search and we find that its **Boeing C-17 airplane** of the **Alaska Airlines**.
+In the image, It seems like the image is captured near the runway of some airport. Vroom to google image search and we find that its **Boeing airplane** of the **Alaska Airlines**.
 
 ![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_chunkyboi1.png)
 
@@ -77,7 +77,9 @@ It's pretty obvious that it's the **Boeing C-17 Globemaster III** <br>
 
 Searching up on `Google Earth` for the Alaska Airlines, we can find this located in **Seattle, Washington**.
 
-I was roaming around the whole area but nothing really helped, I checked almost all the locations which were present in the google earth view but it's no luck. Here my teammate `@Cha0s` came in clutch, who found this document in the [government website](https://www.faa.gov/air_traffic/flight_info/aeronav/acf/media/Presentations/14-02-RD286_SEA_Airport%20Diagram.pdf). We mapped out the where the location would be and came up with this.
+I was roaming around the whole area but nothing really helped, I checked almost all the locations which were present in the google earth view but it's no luck. Here my teammate `@Cha0s` came in clutch, who found this document in the [government website](https://www.faa.gov/air_traffic/flight_info/aeronav/acf/media/Presentations/14-02-RD286_SEA_Airport%20Diagram.pdf).
+
+We mapped out where the location would be and came up with this.
 
 ![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_chunkyboi3.png)
 
