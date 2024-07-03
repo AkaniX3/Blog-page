@@ -16,8 +16,3 @@ My writeup on UIU CTF 2024 on the challs solved by my team 'Bits & Pieces', it w
 > That was quite a pretty night view, can you find where I took it? Flag format: uiuctf{street name, city name} Example: uiuctf{East Green Street, Champaign}
 
 > File: chal.jpg
-
-![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_night.jpg)
-
-For this given image, I need to find it's street and city name. So to start off, I hop on the google image search and try to find some clues.
-
