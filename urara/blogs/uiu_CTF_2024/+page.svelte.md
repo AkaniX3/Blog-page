@@ -3,6 +3,7 @@ title: 'UIU CTF 2024 writeup'
 image: '/blogs/uiu_CTF_2024/uiuctf.png'
 alt: 'UIUCTF'
 created: 2024-7-1
+updated: 2024-7-4
 tags:
   - 'CTF'
   - 'OSINT'
@@ -52,6 +53,16 @@ So there you go, its 157 Arlington Street in Boston.
 
 Flag: `uiuctf{Arlington Street, Boston}`
 
+---
+
 ### Chunky Boi
 
-.
+> Now that's a BIG plane! I wonder where it is. Flag format: `uiuctf{plane type, coordinates of the aircraft} Example: uiuctf{Airbus A380-800, 40.036, -88.264}`
+
+> For coordinates, just omit the digits, do not round up. Precision is the same as the one in the example. The aircraft name is the same as Wikipedia page title. You can extract enough information from this image to answer this. You DO NOT need to register any accounts, all the information is public.
+
+> File: chal.jpg
+
+image
+
+In the image, It seems like the image is captured near the runway of some airport. Vroom to google image search and we find that its
