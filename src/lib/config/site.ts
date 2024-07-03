@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: 'AkaniX3',
   subtitle: 'Blog Page',
   lang: 'en-US',
-  description: 'Powered by SvelteKit/Urara',
+  description: 'Love to learn new stuff<3',
   author: {
     avatar: '/assets/pfp.jpg',
     name: 'AkaniX3',
