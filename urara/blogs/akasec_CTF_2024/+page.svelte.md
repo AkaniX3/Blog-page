@@ -64,10 +64,6 @@ where k is some small value. The polynomial (m+x)<sup>2</sup> - c is constructed
 
 Flag: `AKASEC{c0pp3r5m17h_4774ck_1n_1ov3_w17h_5m4ll_3xp0n3nts}`
 
-### Power Over All
-
-meow
-
 ### Twin
 
 In the given code:
@@ -242,4 +238,4 @@ flag = unpad(cipher.decrypt(c), AES.block_size)
 
 Flag: `AKASEC{d1d_y0u_3nj0y_c41cu1u5_101?}`
 
-visit [urara-docs.netlify.app](https://urara-docs.netlify.app).
+Special thanks to `@ckc9759` for helping with the solutions and writeup!
