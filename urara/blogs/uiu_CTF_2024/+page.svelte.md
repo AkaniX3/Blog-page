@@ -99,4 +99,42 @@ Flag: `uiuctf{Boeing C-17 Globemaster III, 47.462, -122.303}`
 
 ### New Dallas
 
-> hiii
+> Super wide roads with trains... Is this the new Dallas? Flag format: `uiuctf{coordinates of intersection between the rail and the road} Example: uiuctf{41.847, -87.626}`
+
+> File: chal.jpg
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas.jpg)
+
+It seems like the picture is taken from a dashcam on a highway. Unlike previous 2 challenges, for this one there are not buildings or planes for easy to look for entities.
+
+based on what's left is New Dallas, cars and train. Making good use of it, firstly I searched for metro in New Dallas but I wasn't able to get anything useful, Then I searched up on `GeoSpy AI`
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas1.png)
+
+Well well, seems like this is a place in China, and NOT Texas 💀
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas2.png)
+
+GeoSpy AI also gave this location, which is of course not accurate, but approximately we gotta look in Shanghai. (TLDR; Searching in Shanghai metro line was incorrect)
+
+Switching my search from US to China, I searched for the metro lines and trains, specifically green stripe and 6 compartments long. There were a lot of trains but none of them matched. I went through alot of metro line maps, and train pictures but no lead.
+
+At this step, my teammate `@Cha0s` was able to find the it, the `wuxi metro line 2`
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas3.png)
+
+Now we had to find the route, and check for highway which intersect with the metro's path.
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas4.png)
+
+Luckily, most of the metro line is underground and only a few part of it is elevated out in the open. So, checking around this area
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/uiu_CTF_2024/uiu_newdallas5.png)
+
+Looks like we found the location!
+
+With a bit of trial and error, was able to guess to exact coordinates `31.579, 120.388`
+
+Thanks to `@Cha0s` and `@ckc9759` for helping with this challenge.
+
+Flag: `uiuctf{31.579, 120.388}`
