@@ -82,3 +82,212 @@ And that's the flag!
 
 Flag: `DUCTF{D0n7_Us3_P4s5w0rds_1n_Gr0up_P0l1cy}`
 
+---
+
+## Misc:
+
+### Wacky Recipe
+
+> Our Cyber Chef has been creating some wacky recipes recently, though he has been rather protective of his secret ingredients. Use this Chicken Parmi recipe and decipher the missing values to discover the chef's secret ingredient!
+
+> File: "recipe.txt"
+
+```
+Chicken Parmi.
+
+Our Cyber Chef has been creating some wacky recipes recently, though he has been rather protective of his secret ingredients.
+Use this Chicken Parmi recipe and decipher the missing values to discover the chef's secret ingredient!
+This recipe produces the flag in flag format.
+
+Ingredients.
+?? dashes pain
+?? cups effort
+1 cup water
+4 kg bread crumbs
+26 ml hot canola oil
+13 kg egg yolks
+24 teaspoons all purpose spices
+7 teaspoons herbs
+26 kg flour
+26 kg sliced chicken breasts
+1 dashes salt
+11 dashes pepper
+7 dashes pride and joy
+10 kg tomato sauce
+14 g cheese
+13 kg ham
+2 g pasta sauce
+6 dashes chilli flakes
+5 kg onion
+9 dashes basil
+19 dashes oregano
+10 dashes parsley
+20 teaspoons sugar
+
+Cooking time: 25 minutes.
+
+Pre-heat oven to 180 degrees Celsius.
+
+Method.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove bread crumbs from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add hot canola oil to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove egg yolks from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove all purpose spices from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add herbs to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add flour to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove sliced chicken breasts from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove salt from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add pepper to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove pride and joy from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add tomato sauce to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove cheese from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove ham from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add pasta sauce to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove chilli flakes from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Remove onion from 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add basil to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add oregano to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Add water to 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add parsley to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Put water into 1st mixing bowl.
+Combine pain into 1st mixing bowl.
+Add sugar to 1st mixing bowl.
+Add effort to 1st mixing bowl.
+Liquefy contents of the mixing bowl.
+Pour contents of the mixing bowl into the 1st baking dish.
+Refrigerate for 1 hour.
+```
+
+We are given a recipe of Chicken Parmi and somehow need to decrypt this and obtain the flag.
+
+We can see that there's missing value of "pain" and "effort".
+Upon searching for a while, I found that this is actually a programming language called **Chef**.
+
+Reading through how this language works, [source](https://www.dangermouse.net/esoteric/chef.html) it's a stack-based language where programs look like cooking recipes.
+
+There's 4 things to note
+
+1) Put means push on top of the stack
+
+2) Add means "+" operation with top of stack element
+
+3) Remove means "-" operation with top of stack element
+
+4) Combine means "*" operation with top of stack element
+
+With this knowledge, we can assume some value to assign to pain and effort and run the program in [IDE](https://esolangpark.vercel.app/ide/chef)
+
+We can try some ascii values indexes, first assuming 10 and 11
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/downunder_CTF_2024/ductf_chef1.png)
+
+mmm, we get something which are symbols and numbers, so maybe try some characters indexes.
+
+Let's try 75 and 80 which are 'K' and 'P'
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/downunder_CTF_2024/ductf_chef2.png)
+
+Uh now we are out of alphanumeric values...
+
+Let's try 30 and 35
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/downunder_CTF_2024/ductf_chef3.png)
+
+Oh, seeing alphabets is progress! i played around a little bit to tried a few more numbers
+
+Using 27 and 21 got us the flag
+
+![image](https://raw.githubusercontent.com/AkaniX3/Blog-page/main/urara/blogs/downunder_CTF_2024/ductf_chef4.png)
+
+Flag: `DUCTF{2tsp_Vegemite}`
