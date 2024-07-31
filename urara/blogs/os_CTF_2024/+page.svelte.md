@@ -10,8 +10,10 @@ tags:
 
 My writeup on OS CTF on the challs solved by my team 'Bits & Pieces' and we placed rank 6th this time! Was an awesome experience and would love to take part in this next year as well<3
 
+---
+
 ## Forensics:
 
-### Seele Vellorei:
+### Seele Vellorei
 
-mm
+> mm
